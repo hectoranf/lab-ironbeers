@@ -57,8 +57,9 @@ footer{
 /*Beers*/
 
 .beer-file{
-      padding: 10px;
+      padding: 10px 20px;
       color: black;
+      text-align: center;
       text-decoration: none;
       text-decoration-style: none;
       text-decoration-color: none;
@@ -66,6 +67,7 @@ footer{
 
 h5{
       font-weight: 700;
+      color: black;
 }
 
 .beer-file h6{
@@ -79,6 +81,8 @@ h5{
 
 .beer-file p{
        font-size: .8em;
+       color: black;
+       text-align: justify;
 }
 
 .col-lg-4{
@@ -86,12 +90,14 @@ h5{
 }
 
 .beer-file > figure{
-height: 150px;
-text-align: center;
+      display: auto;
 }
 
-.beer-file img{
-      height: 100%;
+.beer-file img{ 
+      display: block;   
+      margin:auto;
+      height: 250px;
+      object-fit: cover;
 }
 
 
